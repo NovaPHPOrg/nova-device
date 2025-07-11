@@ -15,8 +15,6 @@ declare(strict_types=1);
 
 namespace nova\plugin\device;
 
-use nova\plugin\device\Version;
-
 class Browser
 {
     public static function get($ua)

@@ -15,9 +15,6 @@ declare(strict_types=1);
 
 namespace nova\plugin\device;
 
-use nova\plugin\device\Browser;
-use nova\plugin\device\Os;
-
 /**
  * UserAgent类
  * 负责解析HTTP请求中的User-Agent字符串，提取操作系统和浏览器信息
